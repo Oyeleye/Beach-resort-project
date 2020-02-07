@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a beach resort project, built with react. It includes display rooms and set up functionalities, so the users can filter the rooms they want.
 
-## Available Scripts
+I used react router for routing, react context API for state management, contentful headless CMS (also called Bringing Your Own Frontend) data management and netlify to host the application. 
 
-In the project directory, you can run:
+This project is fully responsive. On a smaller screen size, the navbar has a toggle button, and has a traditional navbar display on a bigger screen.
 
-### `npm start`
+Right after the navbar, there is an aerial component where I have the background image. In the middle of the aerial component, I have, I included a bar that has a link to route to the room specs. Underneath that, I included services, where I used react icons to display services that the hotel provides. Afterwards, I added featured rooms, which include data for all the rooms in the hotel. Only some of the rooms were displayed as featured. Aside from these featured rooms, there is a page where all the rooms are displayed. Room component was used to display each specific room. In each of the room components, there will be a price for the room, as well as the room name. Also, when you hover over the card, you will have an option of clicking and can navigate to a single room page, where you will have information, just about that specific room. It could be a family, double or single deluxe room. Each specific room page will show unique pictures, details, info and extra info, which will tell the users more about that specific room.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Since I used a react router, if a user, for instance, tries to navigate to a page that does not exist, I have created a custom for a full page, depicting “page not found”. On that page, you either have the option of clicking to return to “our rooms”, or navigate using the navbar. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+When you click on “rooms”, on the navbar, it takes you to all the rooms that the hotel currently provides. Also, since there are multiple rooms, the user has the option of filtering them out. For instance, if you are only interested in the family rooms, and not single or double rooms, you can click on “room type”, to get the display of only family rooms that hotel provides. After filtering to family rooms or any other room type, users also have the opportunity to filter even more, by reducing the price they want.. If users go below the available price, then the page displays an error message, showing, “Unfortunately, No Rooms Matched Your Search Parameters”. This can be further filtered by room size. Also, you can choose a room type, (e.g family room) that allows breakfast and or pets. You can also filter down for rooms, using the number of guests allowed in that room.
 
-### `npm test`
+Data stored locally
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Data stored on contentful and netlify
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+For styling, I used one main CSS file available in the setup files. While developing the application, only one react hook was used (contentful). I examined multiple options of consuming context API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The rest of the application was built using functional and class-based components.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3 files
+_redirects file is for redirects. 
+App.css is the main css file for the whole application.
+Data.js is the local data used in building this app, prior to hooking up everything in to contentful.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Images folder was also used, while developing the app locally
