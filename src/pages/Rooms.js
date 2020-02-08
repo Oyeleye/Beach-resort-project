@@ -1,7 +1,9 @@
-import React from './node_modules/react'
+import React from 'react'
 
 export const Rooms = () => {
-    return <div>hello from rooms page</div>;  
-};
-
-export default Rooms;
+    return (
+        <div>
+            roomie
+        </div>
+    );
+}
