@@ -1,10 +1,9 @@
-import React from './node_modules/react'
+import React from 'react';
 
-export default function Home() {
-    return 
-        <div>
-        hfdd    
-        </div>;
+
+
+function Home() {
+  return <h1> hi </h1>;
 }
 
-
+export default Home;
