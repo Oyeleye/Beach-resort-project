@@ -20,8 +20,11 @@ For styling, I used one main CSS file available in the setup files. While develo
 
 The rest of the application was built using functional and class-based components.
 
+2 DEPENDENCIES USED
+react-icons
+react-router-dom
 
-3 files
+3 FILES
 _redirects file is for redirects. 
 App.css is the main css file for the whole application.
 Data.js is the local data used in building this app, prior to hooking up everything in to contentful.
