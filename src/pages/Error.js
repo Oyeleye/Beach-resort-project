@@ -1,9 +1,11 @@
-import React from './node_modules/react';
+import React from 'react'
 
-export default function Error() {
-    return 
+function Error() {
+    return (
         <div>
-            djdje
-        </div>;
-    
-};
+         Error page   
+        </div>
+    );
+}
+
+export default Error;
