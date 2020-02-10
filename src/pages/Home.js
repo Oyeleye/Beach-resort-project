@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 
 
 function Home() {
-  return <Hero hero='defaultHero'/>;
+  return <Hero />;
 }
 
 export default Home;
