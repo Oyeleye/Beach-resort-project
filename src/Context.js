@@ -11,7 +11,7 @@ class RoomProvider extends Component {
         featuredRooms:[],
         loading: true
     };
-    //getData
+    //getDataa
 
     componentDidMount(){
         let rooms = this.formatData(items);
