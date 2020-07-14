@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: #0c6ac6;
   --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --offWhite: #3a8ada;
+  --mainBlack: #f7f7f7;
+  --mainGrey: #222;
+  --darkGrey: #0c6ac6;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -58,7 +58,7 @@ h6 {
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
   color: var(--mainBlack);
-  background: var(--primaryColor);
+  background: var(--darkGrey);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
   transition: var(--mainTransition);
@@ -109,7 +109,7 @@ h6 {
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--primaryColor);
+  color: var(--mainWhite);
 }
 .nav-links {
   height: 0;
@@ -160,7 +160,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url('./images/defaultBcgGif.gif') center/cover no-repeat;
+  background: url('./images/defaultBcg.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,12 +169,27 @@ h6 {
   background-image: url('./images/room-2.jpeg');
   min-height: 60vh;
 }
+
+.defaultFront {
+  animation: slide1 10s infinite;
+}
+@keyframes slide1 {
+  0%{
+   background-image: url(./images/defaultBcg.jpg);
+  }
+  33%{
+   background-image: url(./images/defaultBcg2.jpg);
+  }
+  67%{
+   background-image: url(./images/defaultBcg3.jpg);
+  }
+}
 /* End of Hero */
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--mainWhite);
+  background: rgba(236, 238, 245, 0.5);
+  color: var(--mainGrey);
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
@@ -247,7 +262,7 @@ h6 {
 }
 .service span {
   display: inline-block;
-  color: var(--primaryColor);
+  color: var(--mainBlack);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
