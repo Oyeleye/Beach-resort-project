@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Logo from '../images/logo.svg';
 import {FaAlignRight} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
+import MenuIcon from '@material-ui/icons/Menu';
+
 
 export default class Navbar extends Component {
     state={
@@ -24,7 +26,7 @@ export default class Navbar extends Component {
                      className='nav-btn'
                      onClick={this.handleToggle}
                      >
-                     <FaAlignRight className='nav-icon'/>
+                     <MenuIcon className='nav-icon'/>
                    </button>
                 </div>
                 <ul className={this.state.isOpen ? 'nav-links show-nav' : 'nav-links'}>
