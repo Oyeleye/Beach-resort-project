@@ -1,3 +1,5 @@
+<img src='src/images/githubdisplaypic.jpeg' title='Beach resort hero'>
+
 This is a beach resort project, built with react. It includes display rooms and set up functionalities, so the users can filter the rooms they want.
 
 I used react router for routing, react context API for state management, contentful headless CMS (also called Bringing Your Own Frontend) data management and netlify to host the application. 
