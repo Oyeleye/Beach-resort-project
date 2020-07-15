@@ -8,22 +8,22 @@ export default class Services extends Component {
      {
         icon: <FaCocktail/>,
         title:'Free cocktails',
-        info: 'fheeh eie eiei dsjdsjdhdhdhsksjdjskjdhjs'
+        info: 'Here, you get to enjoy the best free cocktails there is! We look forward to serving you, just the way you like it!'
      },
      {
         icon: <FaHiking/>,
         title:'Endless Hiking',
-        info: 'fheeh eie eiei dsjdsjdhdhdhsksjdjskjdhjs'
+        info: 'Whether you like to hike or love to hike, we have plenty of options for all ability levels and levels of adventure!'
      },
      {
         icon: <FaShuttleVan/>,
         title:'Free Shuttle',
-        info: 'fheeh eie eiei dsjdsjdhdhdhsksjdjskjdhjs'
+        info: 'Our 24-hour shuttle bus runs every 20 to 25 minutes to and from the airport, and it is free!'
      },
      {
         icon: <FaBeer/>,
         title:'Strongest Beer',
-        info: 'fheeh eie eiei dsjdsjdhdhdhsksjdjskjdhjs'
+        info: 'We have the best and strongest beer. We know you have to try this, so we will serve you just the way you like it!'
     }
    ]
   }
