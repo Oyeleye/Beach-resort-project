@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Logo from '../images/logo.svg';
-import {FaAlignRight} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import MenuIcon from '@material-ui/icons/Menu';
 
