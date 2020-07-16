@@ -6,10 +6,10 @@
 :root {
   --primaryColor: #0c6ac6;
   --mainWhite: #fff;
-  --offWhite: #3a8ada;
-  --mainBlack: #f7f7f7;
-  --mainGrey: #222;
-  --darkGrey: #0c6ac6;
+  --lightBlue: #3a8ada;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --offBlue: #0c6ac6;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -17,7 +17,7 @@
 }
 .featured-rooms-color {
   padding-top: 66px;
-  color: var(--mainBlack);
+  color: var(--offWhite);
   background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
@@ -25,7 +25,7 @@
 /* globals */
 body {
   padding-top: 66px;
-  color: var(--mainBlack);
+  color: var(--offWhite);
   background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
@@ -64,8 +64,8 @@ h6 {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
-  color: var(--mainBlack);
-  background: var(--darkGrey);
+  color: var(--offWhite);
+  background: var(--offBlue);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
   transition: var(--mainTransition);
@@ -101,7 +101,7 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+  background: var(--lightBlue);
   z-index: 1;
 }
 .nav-header {
@@ -129,7 +129,7 @@ h6 {
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: var(--mainBlack);
+  color: var(--offWhite);
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
@@ -196,7 +196,7 @@ h6 {
 .banner {
   display: inline-block;
   background: rgba(236, 238, 245, 0.5);
-  color: var(--mainGrey);
+  color: var(--mainBlack);
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
@@ -236,7 +236,7 @@ h6 {
 .section-title {
   text-align: center;
   margin-bottom: 4rem;
-  color: var(--mainGrey);
+  color: var(--mainBlack);
 }
 .section-title h4 {
   font-size: 2rem;
@@ -248,7 +248,7 @@ h6 {
   width: 5rem;
   height: 5px;
   margin: 0 auto;
-  background: var(--mainGrey);
+  background: var(--mainBlack);
 }
 /* end of Title */
 
@@ -257,7 +257,7 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: var(--offBlue);
   text-align: center;
 }
 .services-center {
@@ -270,7 +270,7 @@ h6 {
 }
 .service span {
   display: inline-block;
-  color: var(--mainGrey);
+  color: var(--mainBlack);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
@@ -376,7 +376,7 @@ h6 {
   transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
-  background: var(--darkGrey);
+  background: var(--offBlue);
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
@@ -515,7 +515,7 @@ h6 {
 .size-input {
   width: 40%;
   padding: 0.2rem;
-  border: 1px solid var(--mainBlack);
+  border: 1px solid var(--offWhite);
   border-radius: 0.3rem;
   margin-right: 0.3rem;
 }
