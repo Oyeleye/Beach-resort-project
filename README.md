@@ -1,6 +1,6 @@
-<h3>
+<h2>
     <a href="https://beach-resort-7c171.web.app/">Link to project!</a>
-</h3>
+</h2>
 <img src='src/images/githubdisplaypic.jpeg' title='Beach resort hero'>
 
 This is a beach resort project, built with react. It includes display rooms and set up functionalities, so the users can filter the rooms they want.
